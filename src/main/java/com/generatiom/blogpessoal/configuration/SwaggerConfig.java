@@ -24,10 +24,10 @@ public class SwaggerConfig {
 						.version("v0.0.1")
 						.license(new License().name("Generation Brasil").url("https://brazil.generation.org/"))
 						.contact(new Contact().name("Alexandra Reis").url("https://github.com/AlexandraReis")
-								.url("linkedin.com/in/alexandra-reis-dev").email("alexandrareis25@gmail.com")))
+								.email("alexandrareis25@gmail.com")))
 				.externalDocs(new ExternalDocumentation().description("Github")
 						.url("https://github.com/conteudoGeneration/"));
-
+					
 	}
 
 @Bean
